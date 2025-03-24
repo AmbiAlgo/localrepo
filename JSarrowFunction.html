@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>JSArrowFunction</title>
+</head>
+<body>
+    <h4>Arrow functions in JS</h4>
+    <script>
+        //for single line functions, we don't need to write return keyword explicetly
+        let var1 = 4;
+        let var2  =3;
+        //arrow function with no arguments
+        const noArgFun = () => var1 + var2 + 5;
+        console.log(noArgFun());
+
+        //arrow function with 1 arguments
+        const OneArgFun = (x) => var1 + var2 +x + 2;
+        console.log(OneArgFun(4));
+
+        //arrow function with 2 arguments
+        const TwoArgFun = (x,y) => x+y;
+        console.log(TwoArgFun(4,8));
+        
+        const getUser = () => ({user : 'Nisha' , city : 'Delhi'});
+        console.log(getUser());
+
+
+    </script>
+</body>
+</html>
