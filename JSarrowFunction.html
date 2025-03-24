@@ -14,17 +14,23 @@
         //arrow function with no arguments
         const noArgFun = () => var1 + var2 + 5;
         console.log(noArgFun());
+        //changes of branch1
+        console.log(noArgFun());
 
         //arrow function with 1 arguments
         const OneArgFun = (x) => var1 + var2 +x + 2;
         console.log(OneArgFun(4));
-
+        //changes of branch 2
+        console.log(OneArgFun(9));
+        console.log(OneArgFun(10));
         //arrow function with 2 arguments
         const TwoArgFun = (x,y) => x+y;
         console.log(TwoArgFun(4,8));
         
+        //for returning a single line arrays, put everything inside ()
         const getUser = () => ({user : 'Nisha' , city : 'Delhi'});
         console.log(getUser());
+
 
 
     </script>
